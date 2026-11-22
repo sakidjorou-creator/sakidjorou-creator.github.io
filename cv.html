@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV - Saki Djorou</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="fixed top-0 w-full z-50 bg-slate-950/90 backdrop-blur border-b border-slate-800">
+        <nav class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-xl font-bold text-cyan-400">SAKI DJOROU</a>
+
+            <button id="menu-btn" class="md:hidden text-2xl" aria-label="Ouvrir le menu">
+                ☰
+            </button>
+
+            <ul id="menu" class="hidden md:flex gap-6 text-sm">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="apropos.html" class="nav-link">À propos</a></li>
+                <li><a href="competences.html" class="nav-link">Compétences</a></li>
+                <li><a href="projets.html" class="nav-link">Projets</a></li>
+                <li><a href="cv.html" class="nav-link">Mon CV</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="min-h-screen pt-32 pb-20 px-6">
+        <section class="section-container max-w-4xl mx-auto text-center">
+
+            <h1 class="text-4xl font-bold text-cyan-400 mb-8">
+                Mon curriculum vitæ
+            </h1>
+
+            <div class="bg-slate-900 p-8 rounded-2xl border border-slate-800">
+
+                <p class="text-slate-300 leading-8 mb-8">
+                    Retrouvez mon parcours académique, mes compétences
+                    techniques et mes différents projets informatiques
+                    dans mon curriculum vitæ.
+                </p>
+
+                <a href="assets/CV_Saki_Djorou.pdf"
+                   download
+                   class="btn-primary inline-block">
+                    Télécharger mon CV (PDF)
+                </a>
+
+            </div>
+
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
