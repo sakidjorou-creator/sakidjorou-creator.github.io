@@ -32,9 +32,9 @@ https://sakidjorou-creator.github.io/
 - Mon CV
 - Contact
 
-## Vidéo de présentation
+[## Vidéo de présentation
 
-**Lien de la vidéo :** À compléter après publication de la vidéo.
+**Lien de la vidéo :** À compléter après publication de la vidéo](https://drive.google.com/file/d/1qqGBYq4_4J16IPLxfR-ljtF2rgjlVXXu/view?usp=sharing).
 
 ## Auteur
 
